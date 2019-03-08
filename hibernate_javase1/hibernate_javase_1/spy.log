@@ -1,0 +1,65 @@
+1551995061800|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1551995061800|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1551995061800|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1551995061800|3|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create sequence car_sequence start 1 increment 50|create sequence car_sequence start 1 increment 50
+1551995062122|325|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))
+1551995062270|3|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1551995062270|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1551995062301|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1551995062323|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|SELECT * FROM Car|SELECT * FROM Car
+1551995062323|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1551995062323|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1551995062339|3|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1551995062339|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1552001722003|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001722191|185|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1552001722194|2|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1552001722695|500|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create sequence car_sequence start 1 increment 50|create sequence car_sequence start 1 increment 50
+1552001722841|144|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))
+1552001722986|5|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1552001722989|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1552001723056|40|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001723079|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|SELECT * FROM Car|SELECT * FROM Car
+1552001723086|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001723088|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001723169|80|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1552001723171|2|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1552001916549|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001916553|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1552001916554|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1552001916559|4|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create sequence car_sequence start 1 increment 50|create sequence car_sequence start 1 increment 50
+1552001916712|152|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))
+1552001916869|3|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1552001916873|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1552001916896|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001916920|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|SELECT * FROM Car|SELECT * FROM Car
+1552001916925|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001916927|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001916930|2|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1552001916931|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1552001969947|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001969951|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1552001969952|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1552001970261|302|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create sequence car_sequence start 1 increment 50|create sequence car_sequence start 1 increment 50
+1552001970626|363|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))
+1552001970756|2|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1552001970758|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1552001970778|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001970799|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|SELECT * FROM Car|SELECT * FROM Car
+1552001970802|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001970804|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552001970807|2|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1552001970808|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1552002001094|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552002001096|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1552002001097|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence
+1552002001107|5|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create sequence car_sequence start 1 increment 50|create sequence car_sequence start 1 increment 50
+1552002001174|66|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))|create table Car (id int8 not null, model varchar(255), price varchar(255), primary key (id))
+1552002001282|3|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1552002001285|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|select nextval ('car_sequence')|select nextval ('car_sequence')
+1552002001305|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552002001327|0|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|SELECT * FROM Car|SELECT * FROM Car
+1552002001330|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552002001332|0|commit|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1||
+1552002001334|2|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop table if exists Car cascade|drop table if exists Car cascade
+1552002001336|1|statement|connection 0|url jdbc:p6spy:postgresql://localhost:5432/tmp1|drop sequence car_sequence|drop sequence car_sequence

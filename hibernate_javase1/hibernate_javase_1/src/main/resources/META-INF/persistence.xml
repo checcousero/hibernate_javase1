@@ -1,0 +1,49 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+  version="2.1">
+
+  <persistence-unit name="PERSISTENCE" transaction-type="RESOURCE_LOCAL">
+    <description> Hibernate JPA Configuration Example</description>
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <properties>
+      <!-- CONNECTION PARAMETERS -->
+	  <!--  Uso driver di log4jdbc2 -->
+      <property name="javax.persistence.jdbc.driver"
+      	value="com.p6spy.engine.spy.P6SpyDriver" />
+<!--       	value="org.postgresql.Driver" /> -->
+	  
+	  <!--  Uso log4jdbc2 -->	
+      <property name="javax.persistence.jdbc.url" 
+      	value="jdbc:p6spy:postgresql://localhost:5432/tmp1" />
+      <property name="javax.persistence.jdbc.user" 
+      	value="tmp1_admin" />
+      <property name="javax.persistence.jdbc.password" 
+      	value="tmp1_admin" />
+      
+      <property name="hibernate.jdbc.lob.non_contextual_creation"
+      	value="true" />
+      
+      <!-- LOGGING/DEBUGGING --> 
+      
+<!--       <property name="hibernate.show_sql" value="true" /> -->
+<!--       <property name="hibernate.format_sql" value="true"/> -->
+<!-- 	  <property name="hibernate.use_sql_comments" value="true"/> -->
+<!-- 	  <property name="hibernate.generate_statistics" value="true"/> -->
+	  
+
+      <!-- CREATE/DROP SCHEMA -->
+      <property name="hibernate.hbm2ddl.auto" value="create-drop" />
+      
+      <!-- BATCHING CONFIGURATION -->
+      <property name="hibernate.jdbc.batch_size" value="3" />
+      <property name="hibernate.jdbc.order_inserts" value="true" />
+      <property name="hibernate.jdbc.order_updates" value="true" />
+      <property name="hibernate.jdbc.batch_versioned_data" value="true" />
+    </properties>
+
+  </persistence-unit>
+
+</persistence>
